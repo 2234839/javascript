@@ -161,9 +161,11 @@ body{
 
 
 
-#bendi,#MV{
+#bendi,#MV,#个性电台{
 	visibility: hidden;
-}
-#MV video{
 	position: absolute;
 }
+#MV video{	
+	position: absolute;
+}
+

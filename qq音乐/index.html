@@ -17,7 +17,7 @@
 		<div class="huise">在线音乐</div>
 		<div class="anNiu" id="" onclick="jiemian(right_zhu)">音乐馆</div>
 		<div class="anNiu" id="" onclick="jiemian(right_mv)">MV</div>
-		<div class="anNiu" id="" >个性电台</div>
+		<div class="anNiu" id="" onclick="jiemian(right_个性电台)">个性电台</div>
 		<div class="huise">我的音乐</div>
 		<div class="anNiu" id="">我喜欢</div>
 		<div class="anNiu" id="" onclick="jiemian(right_bendi)">本地和下载</div>
@@ -27,13 +27,41 @@
 		<div class="anNiu" id="">QQ音乐巅峰榜 内地</div>
 
 </div>
+<div id="个性电台">
+	<style type="text/css">
+		#right div{ 
+			width: 100px;
+			height: 100px;
+			border: 1px solid red;
+			float: left;
+			display: none;
+		}
+		#right :target{
+			color: #31C27C;
+			display: block;
+		}
+		#a_电台1:hover{
+			color: #FF0000;
+		}
+	</style>
+	<a href="#电台1">私人FM</a><a href="#电台2">蜻蜓FM</a><a href="#电台3">官方FM</a>
+	<div id="电台1">
+		这是私人fm
+	</div>
+	<div id="电台2">
+		这是蜻蜓fm
+	</div>
+	<div id="电台3">
+		这是官方fm
+	</div>
+</div>
 <div id="right">
 	<div id="lunbo"><!--轮播-->
 		<img id="l1" src="img/l1.png"/>
 		<img id="l2" src="img/l2.png"/>
 		<img id="l3" src="img/l3.png"/>
 	</div>
-	<div id="shoubo"><!--1大四小图片组件-->
+	<div id="shoubo"><!--一大四小图片组件-->
 		<a>首播</a><a>内地</a><a>港台</a><a>欧美</a><a>韩国</a><a>日本</a>
 	</div>
 	<div id="tuwen" class="tuwen">
