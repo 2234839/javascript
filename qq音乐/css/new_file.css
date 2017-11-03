@@ -1,0 +1,169 @@
+body{
+	background-color: #F0F0F0;
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+.anNiu:hover{
+	background-color:#E9E9E9;
+}
+.anNiu{
+	margin-top: 5px;
+	width: 160px;
+	padding-top: 12px;
+}
+.huise{color: darkgrey;}
+#left{
+	width: 200px;
+	background-color:#EDF5F6 ;
+	height: 560px;
+	
+}
+#left:hover{
+	overflow:scroll; 	/*滚动条设置*/
+	overflow-x:hidden;
+}
+#left>div{
+	margin-left: 30px;
+	font-size: 14px;
+	height: 20px;
+}
+
+#right{
+	width: 900px;
+	height: 500px;
+	position: absolute;
+	overflow:scroll;
+	overflow-x:hidden;
+	background-color: #F0F0F0;
+	margin-left: 230px;
+	margin-top: -455px;
+} 
+
+#bottom{
+	position: absolute;
+	margin-top: 0px;
+	width: 1125px;
+	height: 65px;
+	background-color: #FFFFFF;
+}
+#ge_img{
+	position: absolute;
+	margin-top: -55px;
+	margin-left: 200px;
+}
+#jindu{
+	margin-top: -20px;
+	margin-left: 340px;
+}
+#jd_h{
+	height: 2px;
+	background-color: #E1E1E1;
+	width: 380px;
+}
+#jd_l{
+	height: 2px;
+	background-color: #31C27C;
+	width: 0px;
+	margin-top: -2px;
+}
+#jd_d{
+	width: 10px;
+	height: 10px;
+	margin-top: -5px;
+	background-color: #31C27C;
+	border-radius: 5px;
+}
+#bofangs{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+#bofangs >img{
+	margin-left: 8px;
+}
+#jd_time{
+	position: absolute;
+	margin-top: -28px;
+	margin-left: 320px;
+	font-size: 7px;
+	color: #A9A9A9;
+}
+#geci{
+	position: absolute;
+	margin-left: 350px;
+	margin-top: -300px;
+	font-size: 40px;
+	color: #31C27C;
+}
+#ci{
+	position: absolute;
+	margin-top: -30px;
+	margin-left: 850px;
+	color: #31C27C;
+}
+
+
+#lunbo{
+	position:relative; 
+	left: 130px;
+	height: 200px;
+}
+
+#lunbo img{
+	position: absolute;
+	/*margin-left: 360px;*/
+	width: 480px;
+	
+}
+#l3{
+	height: 200px;
+	
+}
+#l1{
+	margin-left: -130px;
+	
+}
+#l2{
+	margin-left: 130px;
+}
+#l1,#l2{
+	height: 180px;
+	margin-top: 20px;
+}
+
+#shoubo{
+	height: 68px;
+}
+#shoubo a{
+	margin-top: 30px;
+	display: block;
+	width: 70px;
+	height: 50px;
+	float: left;
+}
+/*图文组件*/ 
+.tuwen{ 
+	background-color: #E9E9E9;
+	width: 365px;
+	height: 280px;
+}
+#tuwen img{
+	height: 210px;
+	width: 365px;
+}
+.font1{
+	position:relative ;
+	top: 10px;
+}
+.font2{
+	position:relative ;
+	top: 18px;
+}
+
+
+
+#bendi,#MV{
+	visibility: hidden;
+}
+#MV video{
+	position: absolute;
+}

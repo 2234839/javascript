@@ -1,0 +1,79 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+		<meta charset="utf-8"/>
+		<title></title>
+		<script src="js/new_file.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/kongjian.js" type="text/javascript" charset="utf-8"></script>
+		
+		<script src="lrc/wukong.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/new_file.css"/>
+	</head>
+<body>
+	
+<div id="left">
+	<br />
+		<img src="img/touxiang.png"/>
+		<div class="huise">在线音乐</div>
+		<div class="anNiu" id="" onclick="jiemian(right_zhu)">音乐馆</div>
+		<div class="anNiu" id="" onclick="jiemian(right_mv)">MV</div>
+		<div class="anNiu" id="" >个性电台</div>
+		<div class="huise">我的音乐</div>
+		<div class="anNiu" id="">我喜欢</div>
+		<div class="anNiu" id="" onclick="jiemian(right_bendi)">本地和下载</div>
+		<div class="anNiu" id="">播放历史</div>
+		<div class="anNiu" id="">试听列表</div>
+		<div class="huise">我创建的歌单&nbsp;&nbsp;&nbsp;+&nbsp;^</div>
+		<div class="anNiu" id="">QQ音乐巅峰榜 内地</div>
+
+</div>
+<div id="right">
+	<div id="lunbo"><!--轮播-->
+		<img id="l1" src="img/l1.png"/>
+		<img id="l2" src="img/l2.png"/>
+		<img id="l3" src="img/l3.png"/>
+	</div>
+	<div id="shoubo"><!--1大四小图片组件-->
+		<a>首播</a><a>内地</a><a>港台</a><a>欧美</a><a>韩国</a><a>日本</a>
+	</div>
+	<div id="tuwen" class="tuwen">
+		<img src="img/shoubo.png"/>
+		<br />&nbsp;&nbsp;&nbsp;&nbsp;
+		<font class="font1" size="2.7">TKE IT EASY-吴莫愁/Psykhon</font>
+		<br />&nbsp;&nbsp;&nbsp;&nbsp;
+		<font class="font2" color="#5F5F5F" size="2.3">说唱与中国民族元素完美融合</font>
+	</div>
+	 
+</div>
+<div id="bendi"><!--本地和下载-->
+	<a href="javascript:gedan_xuange(gedan[0])">悟空</a><br />
+	<a href="javascript:gedan_xuange(gedan[1])">追梦赤子心</a>
+</div>
+<div id="MV">
+		<video width="700px" src="mv/VID_20171013_143140[1].webm" controls="controls"></video>
+</div>
+
+
+<div id="bottom">
+	<div id="bofangs"><!--播放控件--> 
+		<audio id="audio1"><source src="" type="audio/mp3"></source> </audio>
+		<img src="img/shangyiqu.png"  onclick="qiege(-1)"/>
+		<img id="b1" onclick="bofang()" src="img/bofang.png" />
+		<img src="img/xiayiqu.png" onclick="qiege(1)"/>
+		<div id="geci"></div>
+	</div>
+	<img id="ge_img" src="img/ge.png"/>
+	<div id="ci" onclick="geci_xianshi()">词</div>
+	<div id="jindu" onmouseup="getMousePos(event)"><!--进度条-->
+		<div id="jd_h" onmouseup="getMousePos(event)"></div><!--灰条-->
+		<div id="jd_l" onmouseup="getMousePos(event)"></div><!--绿条-->
+		<div id="jd_d" onmouseup="getMousePos(event)"></div><!--绿点-->
+		<div id="jd_time"></div><!--时间-->
+	</div>
+	
+</div>
+
+</body> 
+
+
+</html> 
